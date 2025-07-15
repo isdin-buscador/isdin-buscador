@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Buscador de productos ISDIN</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 sm:p-6 font-sans">
+
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-2xl sm:text-3xl font-extrabold mb-6 text-indigo-700 flex items-center gap-2">
+      🔎 Buscar productos ISDIN
+    </h1>
+
+    <!-- Contenedor del input y botón -->
+    <div class="flex gap-2 mb-4">
+      <input id="searchInput" type="text" placeholder="Escribe el nombre del producto..."
+        class="flex-1 border-2 border-indigo-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200 rounded-xl p-3 shadow-sm transition" />
+      <button id="clearBtn"
+        class="px-4 py-2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold rounded-xl shadow transition hidden">
+        Limpiar
+      </button>
+    </div>
+
+    <ul id="results" class="hidden rounded-xl overflow-hidden border border-indigo-200 shadow-md bg-white"></ul>
+
+    <div id="productDetail" class="mt-6 hidden p-4 sm:p-6 rounded-xl shadow-lg bg-white">
+      <!-- Aquí aparecerán los detalles -->
+    </div>
+  </div>
+
+<script>
+let productos = [];
+let flatList = [];
+
+// Cargar JSON
+fetch('productos_isdin_historial.json')
+  .then(res => res.json())
+  .then(data => {
+    const fecha = Object.keys(data)[0];
+    const categorias = data[fecha];
+    Object.values(categorias).forEach(arr => flatList.push(...arr));
+    productos = flatList;
+  })
+  .catch(err => console.error("Error cargando JSON:", err));
+
+const searchInput = document.getElementById('searchInput');
+const resultsEl = document.getElementById('results');
+const detailEl = document.getElementById('productDetail');
+const clearBtn = document.getElementById('clearBtn');
+
+searchInput.addEventListener('input', function() {
+  const term = this.value.toLowerCase().trim();
+
+  if (term === '') {
+    // Si está vacío, ocultamos todo
+    resultsEl.innerHTML = '';
+    resultsEl.classList.add('hidden');
+    detailEl.classList.add('hidden');
+    clearBtn.classList.add('hidden');
+    return;
+  }
+
+  clearBtn.classList.remove('hidden'); // mostrar botón de limpiar
+
+  const results = productos.filter(p => p.name.toLowerCase().includes(term));
+  renderList(results);
+});
+
+function renderList(list) {
+  resultsEl.innerHTML = '';
+  if (list.length === 0) {
+    resultsEl.classList.add('hidden');
+    return;
+  }
+  resultsEl.classList.remove('hidden');
+  list.forEach(prod => {
+    const li = document.createElement('li');
+    li.className = 'p-3 hover:bg-indigo-50 cursor-pointer transition border-b last:border-b-0';
+    li.innerHTML = `
+      <div class="flex items-center justify-between">
+        <span class="font-medium text-gray-800">${prod.name}</span>
+        <span class="text-sm text-indigo-500">Ver detalles ➡️</span>
+      </div>
+    `;
+    li.addEventListener('click', () => {
+      showDetail(prod);
+      resultsEl.classList.add('hidden');
+      searchInput.value = prod.name;
+      clearBtn.classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    resultsEl.appendChild(li);
+  });
+}
+
+function showDetail(prod) {
+  const descuento = Math.round(prod.price * 0.7);
+  let stockTexto = '';
+  let stockClass = '';
+  if (prod.stockDetails === 'available') {
+    stockTexto = 'Disponible';
+    stockClass = 'bg-green-100 text-green-700';
+  } else if (prod.stockDetails === 'not_available') {
+    stockTexto = 'No disponible';
+    stockClass = 'bg-red-100 text-red-700';
+  } else {
+    stockTexto = prod.stockDetails;
+    stockClass = 'bg-gray-100 text-gray-700';
+  }
+
+  const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(`Mira este producto: ${prod.name} - ${prod.url}`)}`;
+
+  detailEl.innerHTML = `
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+      <div class="flex flex-col items-center">
+        <h2 class="text-xl sm:text-2xl font-bold mb-3 text-gray-800 text-center">${prod.name}</h2>
+        <img src="${prod.mainImage}" alt="${prod.name}" class="w-40 h-40 object-cover rounded-xl shadow-md">
+      </div>
+      <div class="flex-1 mt-4 md:mt-0">
+        <p class="text-gray-500 mb-1 text-center md:text-left"><strong>Precio normal:</strong> $${prod.price.toLocaleString('es-CO')}</p>
+        <p class="text-green-600 font-bold text-lg mb-2 text-center md:text-left"><strong>Con 30% de descuento:</strong> $${descuento.toLocaleString('es-CO')}</p>
+        <div class="flex justify-center md:justify-start mb-3">
+          <span class="inline-block px-3 py-1 rounded-full text-sm font-medium ${stockClass}">${stockTexto}</span>
+        </div>
+        <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-3">
+          <a href="${prod.url}" target="_blank"
+            class="inline-block px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition text-center">
+            Ver en tienda
+          </a>
+          <a href="${whatsappUrl}" target="_blank"
+            class="inline-block px-4 py-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow transition text-center">
+            Compartir por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  `;
+  detailEl.classList.remove('hidden');
+}
+
+// Evento para limpiar búsqueda
+clearBtn.addEventListener('click', () => {
+  searchInput.value = '';
+  resultsEl.innerHTML = '';
+  resultsEl.classList.add('hidden');
+  detailEl.classList.add('hidden');
+  clearBtn.classList.add('hidden');
+});
+</script>
+
+</body>
+</html>

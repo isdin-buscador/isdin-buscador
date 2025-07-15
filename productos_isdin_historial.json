@@ -1,0 +1,646 @@
+{
+  "2025-07-15": {
+    "productos_unicos": [
+      {
+        "id": "4347",
+        "name": "Invisible Stick SPF 50",
+        "price": 107600,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/invisible-stick-spf-50/4347",
+        "mainImage": "https://dam.isdin.com/transform/ed97257f-208a-49d4-b661-336cf9e0c4d2/CO_4347_TH_FPINVISIBLESTICKSPF5010G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3228",
+        "name": "Protector Labial SPF 50",
+        "price": 33300,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/protector-labial-spf-50/3228",
+        "mainImage": "https://dam.isdin.com/transform/7f01b96b-9dce-49ee-9a1c-fc2ce0e1982d/CO_3228_TH_FPLIPSTICKSPF50-4G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3976",
+        "name": "Fusion Water Magic Light SPF 50",
+        "price": 138700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/fusion-water-magic-light-spf-50/3976",
+        "mainImage": "https://dam.isdin.com/transform/781180c3-4097-4c3f-b42a-996ece9e9434/CO_3976_TH_FPFUSIONWATERCOLORLIGHTSPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3226",
+        "name": "Gel Cream SPF 50",
+        "price": 180000,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/gel-cream-spf-50/3226",
+        "mainImage": "https://dam.isdin.com/transform/5c332c65-751e-4d72-8bea-9fd37e698871/CO_3226_TH_FPGELCREAMSPF50250ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0131",
+        "name": "Active Unify Color SPF 50+",
+        "price": 148200,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/active-unify-color-spf-50/0131",
+        "mainImage": "https://dam.isdin.com/transform/26368a69-42fe-446e-a3da-cad5fe6f8fcc/CO_0131_TH_FUACTIVEUNIFYCOLORSPF50-50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4345",
+        "name": "Fusion Water MAGIC Repair SPF 50",
+        "price": 145700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/fusion-water-magic-repair-spf-50/4345",
+        "mainImage": "https://dam.isdin.com/transform/b1b03c00-5573-435b-8807-649c796789c2/CO_4345_TH_FPFWMAGICREPAIRSPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "2915",
+        "name": "Fusion Water MAGIC Pediatrics SPF 50",
+        "price": 134000,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/fusion-water-pediatrics-spf-50/2915",
+        "mainImage": "https://dam.isdin.com/transform/1089e850-a7b0-4cf3-97ae-2025a67e32d9/CO_2915_TH_FPFUSIONWATERMAGICPEDIATRICSSPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "2936",
+        "name": "Gel Cream Pediatrics SPF 50",
+        "price": 180000,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/gel-cream-pediatrics-spf-50/2936",
+        "mainImage": "https://dam.isdin.com/transform/f1e575f7-2971-442d-b469-27f3efb49ebd/CO_2936_TH_FPGELCREAMPEDIATRICSSPF50250ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1160",
+        "name": "Active Unify SPF 50+",
+        "price": 148200,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/active-unify-spf-50/1160",
+        "mainImage": "https://dam.isdin.com/transform/05725f0e-61ff-4cac-90a3-a03f51f1c90a/CO_1160_TH_FUACTIVEUNIFYSPF50-50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4192",
+        "name": "Spot Prevent Color SPF 50+",
+        "price": 145700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/spot-prevent-color-spf-50/4192",
+        "mainImage": "https://dam.isdin.com/transform/83b7af92-540d-4f87-b792-6db569d888c8/CO_4192_TH_FUSPOTPREVENTCOLORSPF50-50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1163",
+        "name": "Compact Arena SPF 50+",
+        "price": 146300,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/compact-arena-spf-50/1163",
+        "mainImage": "https://dam.isdin.com/transform/5ecde7d4-d1ea-4cdb-9f00-bc1b2b4b22ed/CO_1163_TH_FPCOMPACTARENASPF50-10G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3380",
+        "name": "Hydro Oil SPF 30",
+        "price": 149300,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/hydro-oil-spf-30/3380",
+        "mainImage": "https://dam.isdin.com/transform/322a5548-fdff-49fe-90bf-5d5e358f394c/CO_3380_TH_FPHYDROOILSPF30200ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4346",
+        "name": "Fusion Water MAGIC Repair Color SPF 50",
+        "price": 145700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/magic-repair-color-spf-50/4346",
+        "mainImage": "https://dam.isdin.com/transform/814c6e2c-65a2-4e52-9d8b-8769daa22571/CO_4346_TH_FPFWMAGICREPAIRCOLORSPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0834",
+        "name": "AK-NMSC Fluid SPF 99",
+        "price": 159500,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/ak-nmsc-fluid-spf-100/0834",
+        "mainImage": "https://dam.isdin.com/transform/39963817-7d6a-467e-9359-d9cc661d246e/CO_0834_TH_ERYFOTONAAK-NMSCFLUIDSPF10050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0169",
+        "name": "Transparent Spray Wet Skin SPF 50",
+        "price": 159000,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/transparent-spray-wet-skin-spf-50/0169",
+        "mainImage": "https://dam.isdin.com/transform/6e00497d-5bd3-4350-b955-f2150038dde4/CO_0169_TH_FPTRANSPARENTSPRAYWSSPF50250ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3977",
+        "name": "Fusion Water MAGIC Bronze SPF 50",
+        "price": 138700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/fusion-water-color-bronze-spf-50/3977",
+        "mainImage": "https://dam.isdin.com/transform/a09d8269-ff8d-4a94-b8fb-baf544791300/CO_3977_TH_FPFUSIONWATERCOLORBRONZESPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4186",
+        "name": "Redness SPF 50",
+        "price": 139000,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/redness-spf-50/4186",
+        "mainImage": "https://dam.isdin.com/transform/1b8fabf1-84f9-4fc2-ab59-0ea1a3807b67/CO_4186_TH_FUREDNESSSPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0129",
+        "name": "Fusion Fluid® SPF 50+",
+        "price": 137300,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/fusion-fluid-spf-50/0129",
+        "mainImage": "https://dam.isdin.com/transform/da68d26e-e8e9-4bdf-b098-984554af7c71/CO_0129_TH_FPFUSIONFLUIDSPF50-50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "2916",
+        "name": "Hydro Lotion SPF 50",
+        "price": 149300,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/hydro-lotion-spf-50/2916",
+        "mainImage": "https://dam.isdin.com/transform/adb9e8c0-9b9c-4b15-b9ec-d542004381ba/CO_2916_TH_FPHYDROLOTIONSPF50200ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3757",
+        "name": "Fusion Water MAGIC Urban SPF 30",
+        "price": 138700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/fusion-water-magic-urban-spf-30/3757",
+        "mainImage": "https://dam.isdin.com/transform/7c3f924d-513f-4414-a9c2-aed095759e10/CO_3757_TH_FPFUSIONWATERURBANSPF3050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4354",
+        "name": "Eryfotona® Night",
+        "price": 157100,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/eryfotona-night/4354",
+        "mainImage": "https://dam.isdin.com/transform/5551f927-7962-4c76-8cd9-b924d3a3ae24/CO_4354_TH_ERYFOTONANIGHT50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0132",
+        "name": "Spot Prevent SPF 50+",
+        "price": 145700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/spot-prevent-spf-50/0132",
+        "mainImage": "https://dam.isdin.com/transform/ed657629-9948-4652-8ef8-1bd02b6d05d6/CO_0132_TH_FUSPOTPREVENTSPF50-50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0612",
+        "name": "Compact Bronze SPF 50+",
+        "price": 146300,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/compact-bronze-spf-50/0612",
+        "mainImage": "https://dam.isdin.com/transform/b505142d-c15b-4fe3-b265-d22a54880d71/CO_0612_TH_FPCOMPACTBRONCESPF50-10G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0171",
+        "name": "Transparent Spray Wet Skin Pediatrics SPF 50",
+        "price": 159000,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/transparent-spray-wet-skin-pediatrics-spf-50/0171",
+        "mainImage": "https://dam.isdin.com/transform/81fe4796-6a3c-4745-ba54-c55317cb9205/CO_0171_TH_FPTRANSPARENTSPRAYWSPEDSPF50250ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1349",
+        "name": "Fusion Water MAGIC SPF 50",
+        "price": 138700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/fusion-water-magic-spf-50/1349",
+        "mainImage": "https://dam.isdin.com/transform/620e1958-7107-430e-a202-d0396ba5a8ec/CO_1349_TH_FPFUSIONWATERMAGICSPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3162",
+        "name": "Protector Labial SPF 30",
+        "price": 33300,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/protector-labial-spf-30/3162",
+        "mainImage": "https://dam.isdin.com/transform/da54d2c6-8529-466e-acf1-0c0c69060777/CO_3162_TH_FPLIPSTICKSPF304G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3227",
+        "name": "Fusion Water MAGIC Medium SPF 50",
+        "price": 138700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/fusion-water-color-medium-spf-50/3227",
+        "mainImage": "https://dam.isdin.com/transform/c7b6d091-3cfd-4992-b35a-198db11aab8b/CO_3227_TH_FPFUSIONWATERCOLORMEDIUMSPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3691",
+        "name": "UV Mineral Brush SPF 50",
+        "price": 124100,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/uv-mineral-brush-spf-50/3691",
+        "mainImage": "https://dam.isdin.com/transform/ebf03b3e-6514-4e55-b4cf-011fc56bcee8/CO_3691_TH_FPUVMINERALBRUSHSPF50-2G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "2914",
+        "name": "Fusion Gel Sport SPF 50",
+        "price": 127900,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/fusion-gel-sport-spf-50/2914",
+        "mainImage": "https://dam.isdin.com/transform/5713c481-8142-4e13-912a-d6cbda43e645/CO_2914_TH_FPFUSIONGELSPORTSPF50100ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0139",
+        "name": "Fusion Fluid Mineral SPF 50",
+        "price": 140300,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/fusion-fluid-mineral-spf-50/0139",
+        "mainImage": "https://dam.isdin.com/transform/7a52ed36-27e0-4d19-bac9-97d7902d35c8/CO_0139_TH_FUSIONFLUIDMINERALSPF5050ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4140",
+        "name": "Retinal Intense",
+        "price": 353400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/retinal-intense/4140",
+        "mainImage": "https://dam.isdin.com/transform/d1fd94ea-a41d-4fba-a019-f13c0dae6b37/CO_4140_TH_ISDINCEUTICSRETINALINTENSE50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4056",
+        "name": "Hyaluronic Moisture Oily and Combination Skin",
+        "price": 187800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/hyaluronic-moisture-oily-and-combination-skin/4056",
+        "mainImage": "https://dam.isdin.com/transform/3928d0eb-af2f-442d-b262-1dabb7c4a4ce/CO_4056_TH_ISDINCEUTICSHMOILY50G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4318",
+        "name": "Isdinceutics Salicylic Renewal",
+        "price": 220000,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/isdinceutics-salicylic-renewal/4318",
+        "mainImage": "https://dam.isdin.com/transform/f4109e80-72fa-4fcc-9826-0d6d484596b6/CO_4318_TH_ISDINCEUTICSSALICYLICRENEWAL30ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3415",
+        "name": "Reparador Labial Fluido",
+        "price": 39400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/reparador-labial-fluido/3415",
+        "mainImage": "https://dam.isdin.com/transform/bf8903c1-9a7c-45e4-9b71-1ad90814ba4f/CO_3415_TH_ISDINREPARADORLABIALFLUID10ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3414",
+        "name": "Reparador Labial en Stick",
+        "price": 36600,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/reparador-labial-en-stick/3414",
+        "mainImage": "https://dam.isdin.com/transform/e8e991d3-0544-4757-8511-347628a74355/CO_3414_TH_ISDINREPARADORLABIALSTICK4G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3416",
+        "name": "Reparador Labial en Bálsamo",
+        "price": 39400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/reparador-labial-en-balsamo/3416",
+        "mainImage": "https://dam.isdin.com/transform/b7358056-fb7e-42c4-939d-5770968ae978/CO_3416_TH_ISDINREPARADORLABIALJAR10ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0225",
+        "name": "Gel Crema Facial 50 ml",
+        "price": 121200,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/gel-crema-facial-50-ml/0225",
+        "mainImage": "https://dam.isdin.com/transform/d6e76dd5-a84b-4c2b-b38e-4169cdf069e6/CO_0225_TH_NUTRADEICAFACIALGELCREAM50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3805",
+        "name": "Hyaluronic Concentrate",
+        "price": 212100,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/hyaluronic-concentrate/3805",
+        "mainImage": "https://dam.isdin.com/transform/5656a6ab-258d-4289-9f2b-68588e69a5c7/CO_3805_TH_ISDINCEUTICSHYALURONICCONCENTRATE30ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3862",
+        "name": "Vital Eyes",
+        "price": 221500,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/vital-eyes/3862",
+        "mainImage": "https://dam.isdin.com/transform/2981a00f-c4ec-4ddb-8a67-e1c5c9058530/CO_3862_TH_ISDINCEUTICSVITALEYES15G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1510",
+        "name": "K-Ox Eyes®",
+        "price": 215400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/k-ox-eyes/1510",
+        "mainImage": "https://dam.isdin.com/transform/7d5464ac-3b5a-4dc6-b9ff-d070af257f28/CO_1510_TH_ISDINCEUTICSK-OXEYES15G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1449",
+        "name": "Flavo-C® 30 ml",
+        "price": 240500,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/flavo-c-30-ml/1449",
+        "mainImage": "https://dam.isdin.com/transform/e97797ea-e35e-4cb5-a982-170ab42aeec7/CO_1449_TH_ISDINCEUTICSFLAVO-C30ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4057",
+        "name": "Eco-Refill Hyaluronic Moisture Oily and Combination Skin",
+        "price": 159400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/eco-refill-hyaluronic-moisture-oily-and-combination-skin/4057",
+        "mainImage": "https://dam.isdin.com/transform/bd790e8c-1a41-4b78-9f05-4aec72fdbf74/CO_4057_TH_ISDINCEUTICSHMOILYREFILL50G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4012",
+        "name": "Flavo-C® Forte 1U",
+        "price": 109700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/flavo-c-forte-1u/4012",
+        "mainImage": "https://dam.isdin.com/transform/751ff51e-94d8-461b-9d3b-fcccd199bd94/CO_4012_TH_ISDINCEUTICSFLAVO-CFORTE1U5-3ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4041",
+        "name": "Essential Cleansing",
+        "price": 133800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/essential-cleansing/4041",
+        "mainImage": "https://dam.isdin.com/transform/9c142a58-673d-41c0-817a-eb3bcb230f84/CO_4041_TH_ISDINCEUTICSESSENTIALCLEANSING200ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4053",
+        "name": "Eco-Refill Hyaluronic Moisture Normal to Dry",
+        "price": 159400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/eco-refill-hyaluronic-moisture-normal-to-dry/4053",
+        "mainImage": "https://dam.isdin.com/transform/b843cef3-a329-447e-865c-f635cad42dfa/CO_4053_TH_ISDINCEUTICSHMNORMALREFILL50G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3378",
+        "name": "A.G.E. Reverse Night",
+        "price": 389500,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/age-reverse-night/3378",
+        "mainImage": "https://dam.isdin.com/transform/37404c10-5b03-4fd8-ae92-b15edde812ca/CO_3378_TH_ISDINCEUTICSAGEREVERSENIGHT50G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3513",
+        "name": "Instant Flash 5 ampollas",
+        "price": 108200,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/instant-flash-5-ampollas/3513",
+        "mainImage": "https://dam.isdin.com/transform/9f32ff45-37b1-4286-ab70-a5b951cce45d/CO_3513_TH_ISDINCEUTICSINSTANTFLASHAMP5U2ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4243",
+        "name": "Melaclear Advanced",
+        "price": 279100,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/melaclear-advanced/4243",
+        "mainImage": "https://dam.isdin.com/transform/e450e64a-3a79-4a57-b999-e3d7354fc109/CO_4243_TH_ISDINCEUTICSMELACLEARADVANCED3-30ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4052",
+        "name": "Hyaluronic Moisture Normal to Dry",
+        "price": 187800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/hyaluronic-moisture-normal-to-dry/4052",
+        "mainImage": "https://dam.isdin.com/transform/bba33763-a920-41d1-8b2e-e192ed885a1b/CO_4052_TH_ISDINCEUTICSHMNORMAL50G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "2862",
+        "name": "A.G.E. Reverse Day",
+        "price": 371700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/age-reverse-day/2862",
+        "mainImage": "https://dam.isdin.com/transform/8fed1328-f6bb-4da5-a80e-63cdbac710dd/CO_2862_TH_ISDINCEUTICSAGEREVERSEDAY50G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3084",
+        "name": "Rutina Antioxidante Day & Night",
+        "price": 215200,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/rutina-antioxidante-day--night/3084",
+        "mainImage": "https://dam.isdin.com/transform/466bbddf-5ffd-4eed-84dd-365392f37aef/CO_3084_TH_ISDINCEUTICSD-NANTIOXAMP10-102ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4312",
+        "name": "Rutina ‘Realza la juventud de tu piel’",
+        "price": 187800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/rutina-realza-la-juventud-de-tu-piel/4312",
+        "mainImage": "https://dam.isdin.com/transform/5532b4c5-605f-4dbe-92a4-384eb5cbb739/CO_4312_TH_PACKISDINCEUTICSRUTINAHIDRPNORM2024_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3748",
+        "name": "Glicoisdin® 8 Soft",
+        "price": 183700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/glicoisdin-8-soft/3748",
+        "mainImage": "https://dam.isdin.com/transform/c5b53284-b13f-4b17-81a0-1e712f206611/CO_3748_TH_ISDINCEUTICSGLICOISDINCREMA850G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "4011",
+        "name": "Flavo-C® Forte 3U",
+        "price": 278400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/flavo-c-forte-3u/4011",
+        "mainImage": "https://dam.isdin.com/transform/a9bdd101-b7cd-4f3b-9581-7ed38ccc534c/CO_4011_TH_ISDINCEUTICSFLAVO-CFORTE3U5-3ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "2970",
+        "name": "Micellar Solution",
+        "price": 115800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/micellar-solution-400-ml/2970",
+        "mainImage": "https://dam.isdin.com/transform/660a1b3b-4b1e-4a26-b778-9fdb24ba546c/CO_2970_TH_ISDINMICELLARSOLUTION400ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3081",
+        "name": "Flavo-C® Ultraglican 10 ampollas",
+        "price": 118800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/flavo-c-ultraglican-10-ampollas/3081",
+        "mainImage": "https://dam.isdin.com/transform/b9dc1182-d6d2-463d-8240-fd2e74018ee2/CO_3081_TH_ISDINCEUTICSFLAVO-CULTRAGLAMP10U2ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1436",
+        "name": "Bexident Blanqueante Crema dental 125 ml",
+        "price": 39400,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/bexident-blanqueante-crema-dental-125-ml/1436",
+        "mainImage": "https://dam.isdin.com/transform/8dfa583c-eb69-4299-bf97-00af076f9e12/CO_1436_TH_BEXIDENTBLANQUEANTEPASTA125ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1441",
+        "name": "Fresh Breath Uso Diario Enjuague Bucal",
+        "price": 51600,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/fresh-breath-uso-diario-enjuague-bucal/1441",
+        "mainImage": "https://dam.isdin.com/transform/c8b590c7-ead4-4240-a87d-9908f2592fd9/CO_1441_TH_BEXIDENTFRESHBREATHCOLUTORIO500ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1442",
+        "name": "Fresh Breath Uso Diario Spray",
+        "price": 27300,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/fresh-breath-uso-diario-spray/1442",
+        "mainImage": "https://dam.isdin.com/transform/edaaabdd-983e-4869-ae5d-e806265ca64a/CO_1442_TH_BEXIDENTFRESHBREATHSPRAY15ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3750",
+        "name": "Glicoisdin® 15 Moderate",
+        "price": 212300,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/glicoisdin-15-moderate/3750",
+        "mainImage": "https://dam.isdin.com/transform/7f6db224-3fbb-47c2-86b1-6f6a78af13a6/CO_3750_TH_ISDINCEUTICSGLICOISDINGEL1550G_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1437",
+        "name": "Blanqueante Enjuague Bucal 500 ml",
+        "price": 47700,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/blanqueante-enjuague-bucal-500-ml/1437",
+        "mainImage": "https://dam.isdin.com/transform/07629940-e864-4c7e-bc59-98c59bc892b7/CO_1437_TH_BEXIDENTBLANQUEANTECOLUTORIO500ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1570",
+        "name": "Original Gel de Baño 500 ml",
+        "price": 86800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/original-gel-de-bano-500-ml/1570",
+        "mainImage": "https://dam.isdin.com/transform/013b7d55-2f27-4a3e-b977-15e1e989c093/CO_1570_TH_GERMISDINORIGINAL500ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0231",
+        "name": "Ultra10 200 ml",
+        "price": 124700,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/ultra10-200-ml/0231",
+        "mainImage": "https://dam.isdin.com/transform/68bdfae4-d7ec-4d4c-b215-807eae262fcc/CO_0231_TH_UREADINULTRA10LOTION200ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0854",
+        "name": "Lambdapil® Champú Anticaída 200 ml",
+        "price": 112000,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/lambdapil-champu-anticaida-200-ml/0854",
+        "mainImage": "https://dam.isdin.com/transform/6aaa26e2-dc2d-4f5a-b125-bd78a6c6d8de/CO_0854_TH_LAMBDAPILHAIRLOSSSHAMPOO200ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1656",
+        "name": "Crema de Manos Reparadora",
+        "price": 48900,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/crema-de-manos-reparadora/1656",
+        "mainImage": "https://dam.isdin.com/transform/e6323b52-35d3-4acc-a4e4-cf06fea61f7d/CO_1656_TH_UREADINHANDCREAMREPAIR50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0533",
+        "name": "Nutradeica® Champú Anticaspa Grasa 200 ml",
+        "price": 112600,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/nutradeica-champu-anticaspa-grasa-200-ml/0533",
+        "mainImage": "https://dam.isdin.com/transform/01ae3e13-7042-4d91-9805-175e41c8207c/CO_0533_TH_NUTRADEICAOILYDRANDRUFFSHAMPOO200ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "2775",
+        "name": "Ureadin Shower Gel 400 ml",
+        "price": 133400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/bath-gel-400-ml/2775",
+        "mainImage": "https://dam.isdin.com/transform/27ba3d34-6295-4c8b-accb-b610067fe330/CO_2775_TH_UREADINBATHGEL400ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "2780",
+        "name": "Ultra10 400ml",
+        "price": 163900,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/ultra10-400ml/2780",
+        "mainImage": "https://dam.isdin.com/transform/1048d712-7d10-44fa-a077-498f652db04c/CO_2780_TH_UREADINULTRA10LOTION400ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3045",
+        "name": "Antiestrías",
+        "price": 139500,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/antiestrias/3045",
+        "mainImage": "https://dam.isdin.com/transform/c3a06a64-6203-486a-b303-5289ec25e74f/CO_3045_TH_ISDINWOMANANTISTRETCHCREAM250ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3451",
+        "name": "SI-NAILS®",
+        "price": 115800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/si-nails/3451",
+        "mainImage": "https://dam.isdin.com/transform/506d0ffa-bd0d-4841-9f9f-265d370f8c5e/CO_3451_TH_SI-NAILSVARNISH2-5ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0223",
+        "name": "Ultra20 Crema Anti-Rugosidades 100 ml",
+        "price": 87900,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/ultra20-crema-anti-rugosidades-100-ml/0223",
+        "mainImage": "https://dam.isdin.com/transform/1e8d98c7-86e4-44ea-a1d7-f85002ba7765/CO_0223_TH_UREADINULTRA20CREAM100ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0254",
+        "name": "Ultra30 Crema Anti-Rugosidades 50 ml",
+        "price": 78800,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/ultra30-crema-anti-rugosidades-50-ml/0254",
+        "mainImage": "https://dam.isdin.com/transform/d845fd7a-92fd-4375-8696-d24e01ab38cd/CO_0254_TH_UREADINULTRA30CREAM50ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0255",
+        "name": "Ultra40 Gel Oil Exfoliación Intensa",
+        "price": 80900,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/ultra40-gel-oil-exfoliacion-intensa/0255",
+        "mainImage": "https://dam.isdin.com/transform/ed0c6c9d-fd19-4d77-98e2-6f0a86241070/CO_0255_TH_UREADINULTRA40GELOIL30ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3041",
+        "name": "Higiene Íntima 200 ml",
+        "price": 69100,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/higiene-intima-200-ml/3041",
+        "mainImage": "https://dam.isdin.com/transform/9aeea41a-0db8-46bd-b0fa-118470a2cd70/CO_3041_TH_ISDINWOMANINTIMATEHYGIENEGEL200ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3063",
+        "name": "Isdin BabyNaturals Nutraisdin Pomada del Pañal 100 ml",
+        "price": 54400,
+        "stockDetails": "available",
+        "url": "https://www.isdin.com/p/pomada-del-panal-regeneradora-100-ml/3063",
+        "mainImage": "https://dam.isdin.com/transform/834c96a1-8c44-4a75-bca1-d358bdb005cc/CO_3063_TH_BABYNATURALSZN40POMADE100ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3660",
+        "name": "Gel Champú 400 ml",
+        "price": 75100,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/gel-champu-400-ml/3660",
+        "mainImage": "https://dam.isdin.com/transform/d4381baa-a58b-468d-a2ad-35c4d4d2527c/CO_3660_TH_BABYNATURALSGELSHAMPOO400ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3199",
+        "name": "Daylisdin® Champú Ultra Suave 400 ml",
+        "price": 103500,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/daylisdin-champu-ultra-suave-400-ml/3199",
+        "mainImage": "https://dam.isdin.com/transform/37b972f1-9298-4779-a388-7ed4cc4206bb/CO_3199_TH_DAYLISDINSHAMPOO400ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "3661",
+        "name": "Loción Corporal 400 ml",
+        "price": 93500,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/locion-corporal-400-ml/3661",
+        "mainImage": "https://dam.isdin.com/transform/bd395213-683a-44e0-8ec9-c64e3d4a23d5/CO_3661_TH_BABYNATURALSBODYLOTION400ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "0119",
+        "name": "Podos Gel Oil Hidratante",
+        "price": 100600,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/podos-gel-oil-hidratante/0119",
+        "mainImage": "https://dam.isdin.com/transform/184ac1e1-4721-4120-9f1a-8228cb360ccf/CO_0119_TH_UREADINPODOSGELOIL75ML_MAIN_IMAGE_0"
+      },
+      {
+        "id": "1654",
+        "name": "Lotion10 1000 ml",
+        "price": 202900,
+        "stockDetails": "not_available",
+        "url": "https://www.isdin.com/p/lotion10-1000-ml/1654",
+        "mainImage": "https://dam.isdin.com/transform/3a309143-8f9e-4919-b572-91f6f6a28855/CO_1654_TH_UREADINLOTION101000ML_MAIN_IMAGE_0"
+      }
+    ]
+  }
+}
