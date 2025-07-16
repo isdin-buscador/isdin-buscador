@@ -58,7 +58,11 @@ searchInput.addEventListener('input', function() {
   }
 
   clearBtn.classList.remove('hidden');
-  const results = productos.filter(p => p.name.toLowerCase().includes(term));
+  const results = productos.filter(p => {
+  const nombre = p.name ? p.name.toLowerCase() : '';
+  const descCorta = p.shortDescription ? p.shortDescription.toLowerCase() : '';
+  return nombre.includes(term) || descCorta.includes(term);
+});
   renderList(results);
 });
 
