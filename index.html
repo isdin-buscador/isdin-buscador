@@ -33,11 +33,11 @@
 <script>
 let productos = [];
 
-// Cargar JSON (ya es lista plana)
+// Cargar JSON plano
 fetch('productos_isdin_historial.json')
   .then(res => res.json())
   .then(data => {
-    productos = data; // data es un array de productos
+    productos = data; // ya es un array de productos
   })
   .catch(err => console.error("Error cargando JSON:", err));
 
@@ -58,7 +58,6 @@ searchInput.addEventListener('input', function() {
   }
 
   clearBtn.classList.remove('hidden');
-
   const results = productos.filter(p => p.name.toLowerCase().includes(term));
   renderList(results);
 });
@@ -92,6 +91,7 @@ function renderList(list) {
 
 function showDetail(prod) {
   const descuento = Math.round(prod.price * 0.7);
+
   let stockTexto = '';
   let stockClass = '';
   if (prod.stockDetails === 'available') {
@@ -105,13 +105,40 @@ function showDetail(prod) {
     stockClass = 'bg-gray-100 text-gray-700';
   }
 
-  const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(`Deseo adquirir este producto: ${prod.name} - ${prod.url}`)}`;
+  const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(`Mira este producto: ${prod.name} - ${prod.url}`)}`;
+
+  // ✅ Obtener todas las imágenes
+  let allImages = [];
+  if (Array.isArray(prod.imageGroups)) {
+    prod.imageGroups.forEach(group => {
+      if (Array.isArray(group.images)) {
+        group.images.forEach(img => {
+          if (img.link && !allImages.includes(img.link)) {
+            allImages.push(img.link);
+          }
+        });
+      }
+    });
+  }
+  if (allImages.length === 0 && prod.mainImage) {
+    allImages.push(prod.mainImage);
+  }
+
+  // Contenedor de imagen
+  let imgHtml = '';
+  if (allImages.length > 0) {
+    imgHtml = `
+      <div class="relative w-40 h-40 rounded-xl overflow-hidden shadow-md">
+        <img id="productImage" src="${allImages[0]}" class="w-40 h-40 object-cover transition-opacity duration-500">
+      </div>
+    `;
+  }
 
   detailEl.innerHTML = `
     <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
       <div class="flex flex-col items-center">
         <h2 class="text-xl sm:text-2xl font-bold mb-3 text-gray-800 text-center">${prod.name}</h2>
-        <img src="${prod.mainImage}" alt="${prod.name}" class="w-40 h-40 object-cover rounded-xl shadow-md">
+        ${imgHtml}
       </div>
       <div class="flex-1 mt-4 md:mt-0">
         <p class="text-gray-500 mb-1 text-center md:text-left"><strong>Precio normal:</strong> $${prod.price.toLocaleString('es-CO')}</p>
@@ -138,6 +165,24 @@ function showDetail(prod) {
     </div>
   `;
   detailEl.classList.remove('hidden');
+
+  // ✅ Rotar imágenes automáticamente
+  if (allImages.length > 1) {
+    let currentIndex = 0;
+    // Limpiar intervalos anteriores
+    if (window.imgInterval) clearInterval(window.imgInterval);
+    window.imgInterval = setInterval(() => {
+      currentIndex = (currentIndex + 1) % allImages.length;
+      const imgEl = document.getElementById('productImage');
+      if (imgEl) {
+        imgEl.style.opacity = 0;
+        setTimeout(() => {
+          imgEl.src = allImages[currentIndex];
+          imgEl.style.opacity = 1;
+        }, 300);
+      }
+    }, 3000); // cada 3 segundos
+  }
 }
 
 clearBtn.addEventListener('click', () => {
@@ -146,6 +191,7 @@ clearBtn.addEventListener('click', () => {
   resultsEl.classList.add('hidden');
   detailEl.classList.add('hidden');
   clearBtn.classList.add('hidden');
+  if (window.imgInterval) clearInterval(window.imgInterval);
 });
 </script>
 
