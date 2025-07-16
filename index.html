@@ -32,16 +32,12 @@
 
 <script>
 let productos = [];
-let flatList = [];
 
-// Cargar JSON
+// Cargar JSON (ya es lista plana)
 fetch('productos_isdin_historial.json')
   .then(res => res.json())
   .then(data => {
-    const fecha = Object.keys(data)[0];
-    const categorias = data[fecha];
-    Object.values(categorias).forEach(arr => flatList.push(...arr));
-    productos = flatList;
+    productos = data; // data es un array de productos
   })
   .catch(err => console.error("Error cargando JSON:", err));
 
@@ -54,7 +50,6 @@ searchInput.addEventListener('input', function() {
   const term = this.value.toLowerCase().trim();
 
   if (term === '') {
-    // Si está vacío, ocultamos todo
     resultsEl.innerHTML = '';
     resultsEl.classList.add('hidden');
     detailEl.classList.add('hidden');
@@ -62,7 +57,7 @@ searchInput.addEventListener('input', function() {
     return;
   }
 
-  clearBtn.classList.remove('hidden'); // mostrar botón de limpiar
+  clearBtn.classList.remove('hidden');
 
   const results = productos.filter(p => p.name.toLowerCase().includes(term));
   renderList(results);
@@ -124,7 +119,12 @@ function showDetail(prod) {
         <div class="flex justify-center md:justify-start mb-3">
           <span class="inline-block px-3 py-1 rounded-full text-sm font-medium ${stockClass}">${stockTexto}</span>
         </div>
-        <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-3">
+        ${prod.mainIngredients ? `
+        <div class="mb-3">
+          <h3 class="text-md font-semibold text-gray-700 mb-1">Ingredientes principales:</h3>
+          <p class="text-gray-600 text-sm">${prod.mainIngredients}</p>
+        </div>` : ''}
+        <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-3 mt-4">
           <a href="${prod.url}" target="_blank"
             class="inline-block px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition text-center">
             Ver en tienda
@@ -140,7 +140,6 @@ function showDetail(prod) {
   detailEl.classList.remove('hidden');
 }
 
-// Evento para limpiar búsqueda
 clearBtn.addEventListener('click', () => {
   searchInput.value = '';
   resultsEl.innerHTML = '';
